@@ -1,6 +1,28 @@
 Changelog
 =========
 
+## [1.1.0](https://github.com/KarinJS/moment/compare/v1.0.0...v1.1.0) (2025-04-14)
+
+
+### Features
+
+* ci vite ([326d45a](https://github.com/KarinJS/moment/commit/326d45aa2cc6502d8cffef4da1a87dd45461a204))
+
+
+### Bug Fixes
+
+* 3626 further refactor ([ebdfa5f](https://github.com/KarinJS/moment/commit/ebdfa5f2ecf6a6f7a232dafd942686808ab2e7e7))
+* 3626: updateLocale merge issue ([9756e86](https://github.com/KarinJS/moment/commit/9756e862badcdfe2a48e8bfc1c56cb91593d8baf))
+* 4995: typo in Bulgarian abbreviation for January ([#5203](https://github.com/KarinJS/moment/issues/5203)) ([cd6f72f](https://github.com/KarinJS/moment/commit/cd6f72fe87bc641e78e837a28b058d9fb17770a9))
+* 5596: floating number calculation converter ([c3d1c1c](https://github.com/KarinJS/moment/commit/c3d1c1cad67f1b60b86d1f85daf7890a5813b6b4))
+* **bug:** add condition to prevent name is undefined in isLocaleNameSane function and ensure it returns a boolean ([bee59ae](https://github.com/KarinJS/moment/commit/bee59ae7b2708410250590a52c87580804dcbde7))
+* ci ([765f0c5](https://github.com/KarinJS/moment/commit/765f0c52b8d76a2a1442728a6678143448222a1a))
+* ci ([dc223e3](https://github.com/KarinJS/moment/commit/dc223e3e63464063d168e0db251a83fd2b2b7715))
+* ci ([827258b](https://github.com/KarinJS/moment/commit/827258b3906f1a2e4284c431645d30feb6a52921))
+* ci ([9822065](https://github.com/KarinJS/moment/commit/98220650b4050a4d07b803e5cbc37681e0e59834))
+* erroneous regex anchoring in nl locale ([f15cbac](https://github.com/KarinJS/moment/commit/f15cbac17a5264a14bdfebe0226468a48f261c5e))
+* token ([b486bd2](https://github.com/KarinJS/moment/commit/b486bd24ada18ab042076323f90dcb14b74378ad))
+
 ## 1.0.0 (2025-04-14)
 
 
