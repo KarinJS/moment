@@ -29,12 +29,12 @@ jobs:
           # 设置 Node.js 版本
           node-version: 20
           # 设置 npm 源
-          registry-url: "https://registry.npmjs.org"
+          registry-url: https://registry.npmjs.org
         if: ${{ steps.release.outputs.release_created }}
       # 安装依赖
       - run: npm install
         if: ${{ steps.release.outputs.release_created }}
-      # 新增vite
+      # 新增 vite
       - run: npm install vite -D
       # 构建输出
       - run: npx vite build
