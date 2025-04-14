@@ -8,7 +8,16 @@ import { builtinModules } from 'node:module'
  * 初始化一下package.json
  */
 pkg.name = '@karinjs/moment'
+// @ts-ignore
 pkg.files = ['dist', 'moment.d.ts']
+// @ts-ignore
+delete pkg.typesVersions
+// @ts-ignore
+delete pkg['jsnext:main']
+
+fs.rmSync('moment.js', { force: true })
+fs.rmSync('locale', { force: true })
+
 fs.writeFileSync(
   resolve(__dirname, 'package.json'),
   JSON.stringify(pkg, null, 2),

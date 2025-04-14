@@ -46,6 +46,9 @@ jobs:
       # type -> esm
       - run: npm pkg set type=module
         if: ${{ steps.release.outputs.release_created }}
+      # cp
+      - run: cp dist/moment.js moment.js && cp -r dist/locale locale
+        if: ${{ steps.release.outputs.release_created }}
       # 发布到 npm
       - run: npm publish --access public
         env:
