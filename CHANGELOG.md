@@ -1,6 +1,13 @@
 Changelog
 =========
 
+## [1.1.2](https://github.com/KarinJS/moment/compare/v1.1.1...v1.1.2) (2025-04-14)
+
+
+### Bug Fixes
+
+* build error ([b3db872](https://github.com/KarinJS/moment/commit/b3db872e48a3fc42254657e906ea5283ac9b2de0))
+
 ## [1.1.1](https://github.com/KarinJS/moment/compare/v1.1.0...v1.1.1) (2025-04-14)
 
 
