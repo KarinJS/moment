@@ -35,7 +35,7 @@ jobs:
       - run: npm install
         if: ${{ steps.release.outputs.release_created }}
       # 新增 vite
-      - run: npm install vite -D
+      - run: npm install @types/node@18 vite -D
         if: ${{ steps.release.outputs.release_created }}
       # 构建输出
       - run: npx vite build
