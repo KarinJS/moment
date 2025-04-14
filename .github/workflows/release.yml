@@ -20,7 +20,6 @@ jobs:
         with:
           # 设置发布类型为 node
           release-type: node
-          token: ${{ secrets.RELEASE }}
       # 检出代码
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
