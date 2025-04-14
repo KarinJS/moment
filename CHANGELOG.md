@@ -1,6 +1,18 @@
 Changelog
 =========
 
+## 1.0.0 (2025-04-14)
+
+
+### Bug Fixes
+
+* 3626 further refactor ([ebdfa5f](https://github.com/KarinJS/moment/commit/ebdfa5f2ecf6a6f7a232dafd942686808ab2e7e7))
+* 3626: updateLocale merge issue ([9756e86](https://github.com/KarinJS/moment/commit/9756e862badcdfe2a48e8bfc1c56cb91593d8baf))
+* 4995: typo in Bulgarian abbreviation for January ([#5203](https://github.com/KarinJS/moment/issues/5203)) ([cd6f72f](https://github.com/KarinJS/moment/commit/cd6f72fe87bc641e78e837a28b058d9fb17770a9))
+* 5596: floating number calculation converter ([c3d1c1c](https://github.com/KarinJS/moment/commit/c3d1c1cad67f1b60b86d1f85daf7890a5813b6b4))
+* **bug:** add condition to prevent name is undefined in isLocaleNameSane function and ensure it returns a boolean ([bee59ae](https://github.com/KarinJS/moment/commit/bee59ae7b2708410250590a52c87580804dcbde7))
+* erroneous regex anchoring in nl locale ([f15cbac](https://github.com/KarinJS/moment/commit/f15cbac17a5264a14bdfebe0226468a48f261c5e))
+
 ### 2.30.1
 * Release Dec 27, 2023
 * Revert https://github.com/moment/moment/pull/5827, because it's breaking
@@ -993,4 +1005,3 @@ Changed date format from php date format to custom format.
 - Release
 
 Initial release
-
