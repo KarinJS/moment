@@ -16,7 +16,7 @@ delete pkg.typesVersions
 delete pkg['jsnext:main']
 
 fs.rmSync('moment.js', { force: true })
-fs.rmSync('locale', { force: true })
+fs.rmSync('locale', { recursive: true, force: true })
 
 fs.writeFileSync(
   resolve(__dirname, 'package.json'),
