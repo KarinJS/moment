@@ -9,7 +9,7 @@ import { builtinModules } from 'node:module'
  */
 pkg.name = '@karinjs/moment'
 // @ts-ignore
-pkg.files = ['moment.js', 'locale']
+pkg.files = ['moment.js', 'locale', 'moment.d.ts']
 // @ts-ignore
 delete pkg.typesVersions
 // @ts-ignore
