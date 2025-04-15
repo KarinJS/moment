@@ -1,6 +1,13 @@
 Changelog
 =========
 
+## [1.1.4](https://github.com/KarinJS/moment/compare/v1.1.3...v1.1.4) (2025-04-15)
+
+
+### Bug Fixes
+
+* types ([45dc5db](https://github.com/KarinJS/moment/commit/45dc5db475d952c6ab2a54c50ad1ebe03a8c3165))
+
 ## [1.1.3](https://github.com/KarinJS/moment/compare/v1.1.2...v1.1.3) (2025-04-14)
 
 
