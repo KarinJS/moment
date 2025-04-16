@@ -793,4 +793,4 @@ declare namespace moment {
 
 }
 
-export = moment;
+export default moment;

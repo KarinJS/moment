@@ -53,6 +53,11 @@ export default defineConfig({
         ...builtinModules.map((mod) => `node:${mod}`),
       ],
     },
-    minify: 'terser'
+    minify: 'terser',
+    commonjsOptions: {
+      include: [/node_modules/],
+      transformMixedEsModules: true,  // 处理混合模块
+      defaultIsModuleExports: true    // 处理 module.exports
+    },
   }
 })
